@@ -1,6 +1,6 @@
 from flask import Flask
 
-from example_app.call_coin_metrics_v4_api import get_coin_metrics_asset_data_service
+from coin_metrics_lean_python_v4_api.call_coin_metrics_v4_api import get_coin_metrics_asset_data_service
 
 app = Flask(__name__)
 
